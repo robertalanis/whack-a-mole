@@ -1,17 +1,25 @@
-.square {
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color: black;
+.wrapper {
+    margin: auto;
+    text-align: center;
+    align-content: center;
 }
+
 
 .grid {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    width: 618px;
-    height: 618px;
+    width: 318px;
+    height: 318px;
+    margin: auto;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
 }
 
 .mole {
